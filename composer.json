@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "makepot": [
+      "wp i18n make-pot . i18n/languages/woo-stripe-payment.pot --include=\"includes,templates,packages,stripe-payments.php\" --slug=woo-stripe-payment --skip-audit"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "PaymentPlugins\\Blocks\\Stripe\\Plaid\\": "packages/blocks/src/"
+    }
+  },
+  "require-dev": {
+    "wp-cli/i18n-command": "^2.2",
+    "apigen/apigen": "4.1.2"
+  },
+  "config": {
+    "platform": {
+      "php": "7.1"
+    }
+  }
+}
