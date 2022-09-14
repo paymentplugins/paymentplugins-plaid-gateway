@@ -4,3 +4,7 @@
 /vendor
 
 /build
+
+/packages/**/build
+
+/i18n/languages/*

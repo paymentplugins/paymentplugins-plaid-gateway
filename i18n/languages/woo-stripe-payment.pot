@@ -1,0 +1,233 @@
+# Copyright (C) 2022 Payment Plugins, support@paymentplugins.com
+# This file is distributed under the same license as the Payment Plugins Plaid Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Plugins Plaid Gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-stripe-payment\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-14T06:55:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: woo-stripe-payment\n"
+
+#. Plugin Name of the plugin
+msgid "Payment Plugins Plaid Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "''"
+msgstr ""
+
+#. Description of the plugin
+msgid "Payment gateway that integrates Stripe with Plaid."
+msgstr ""
+
+#. Author of the plugin
+msgid "Payment Plugins, support@paymentplugins.com"
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:27
+msgid "Plaid ACH"
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:30
+msgid "Stripe Plaid (deprecated)"
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:31
+msgid "Plaid gateway that integrates with your Stripe account. Stripe ACH is the preferred way to accept ACH payments."
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:127
+msgid "Error processing payment. Reason: %s"
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:253
+msgid "Saved Banks"
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:257
+msgid "New Bank"
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:301
+msgid "You must set the API mode to live in order to enable the Plaid development environment."
+msgstr ""
+
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:336
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:340
+#: includes/gateways/settings/plaid-settings.php:121
+msgid "ACH Fee"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:6
+msgid "For US customers only."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:8
+msgid "Read through our %1$sdocumentation%2$s to configure ACH payments"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:13
+msgid "Enabled"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:18
+msgid "If enabled, your site can accept ACH payments through Stripe."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:22
+msgid "Plaid Environment"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:25
+msgid "Sandbox"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:26
+msgid "Development"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:27
+msgid "Production"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:30
+msgid "The active Plaid environment. You must set API mode to live to use Plaid's development environment."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:34
+msgid "Plaid Keys"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:40
+msgid "ID that identifies your Plaid account."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:45
+msgid "Plaid Secrets"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:48
+msgid "Sandbox Secret"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:51
+msgid "Key that acts as a password when connecting to Plaid's sandbox environment."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:55
+msgid "Development Secret"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:58
+msgid "Development allows you to test real bank credentials with test transactions."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:62
+msgid "Production Secret"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:65
+msgid "Key that acts as a password when connecting to Plaid's production environment."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:70
+msgid "General Settings"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:74
+msgid "Title"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:75
+msgid "ACH Payment"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:80
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:83
+msgid "Leave blank if you don't want a description to show for the gateway."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:87
+msgid "Order Button Text"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:89
+msgid "Bank Payment"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:90
+msgid "The text on the Place Order button that displays when the gateway is selected on the checkout page."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:95
+msgid "Client Name"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:97
+msgid "The name that appears on the ACH payment screen."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:101
+msgid "ACH Display"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:112
+msgid "Order Status"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:115
+msgid "Default"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:117
+msgid "This is the status of the order once payment is complete. If <b>Default</b> is selected, then WooCommerce will set the order status automatically based on internal logic which states if a product is virtual and downloadable then status is set to complete. Products that require shipping are set to Processing. Default is the recommended setting as it allows standard WooCommerce code to process the order status."
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:131
+msgid "None"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:132
+msgid "Amount"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:133
+msgid "Percentage"
+msgstr ""
+
+#: includes/gateways/settings/plaid-settings.php:136
+msgid "You can assign a fee to the order for ACH payments. Amount is a static amount and percentage is a percentage of the cart amount."
+msgstr ""
+
+#: packages/blocks/assets/js/payment-methods/plaid/payment-method.js:56
+#: packages/blocks/build/commons.js:1
+#: packages/blocks/build/commons.js:378
+msgid "Test Credentials"
+msgstr ""
+
+#: packages/blocks/assets/js/payment-methods/plaid/payment-method.js:59
+#: packages/blocks/build/commons.js:1
+#: packages/blocks/build/commons.js:381
+msgid "username"
+msgstr ""
+
+#: packages/blocks/assets/js/payment-methods/plaid/payment-method.js:62
+#: packages/blocks/build/commons.js:1
+#: packages/blocks/build/commons.js:384
+msgid "password"
+msgstr ""
+
+#: packages/blocks/assets/js/payment-methods/plaid/payment-method.js:65
+#: packages/blocks/build/commons.js:1
+#: packages/blocks/build/commons.js:387
+msgid "pin"
+msgstr ""

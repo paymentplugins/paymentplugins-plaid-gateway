@@ -25,8 +25,6 @@ const jsBlocksConfig = {
         output: {
             path: path.resolve(__dirname, 'packages/blocks/build'),
             filename: '[name].js',
-            /*library: ['wc_stripe', '[name]'],
-            libraryTarget: 'this'*/
         },
         optimization: {
             splitChunks: {
