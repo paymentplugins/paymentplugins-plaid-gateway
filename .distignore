@@ -1,0 +1,16 @@
+.distignore
+package.json
+package-lock.json
+composer.*
+build.sh
+/node_modules/
+/bin/
+/build/
+.gitignore
+/apigen/
+apigen.neon
+.git
+Gruntfile.js
+.jshintignore
+webpack.config.js
+.eslintrc.js

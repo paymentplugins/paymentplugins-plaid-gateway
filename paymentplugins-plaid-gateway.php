@@ -40,3 +40,17 @@ add_filter( 'wc_stripe_api_controllers', function ( $controllers ) use ( $path )
 
 	return $controllers;
 } );
+
+add_action( 'plugins_loaded', function () {
+	if ( ! function_exists( 'stripe_wc' ) ) {
+		add_action( 'admin_notices', function () {
+			?>
+            <div class="notice notice-error woocommerce-message">
+                <h4>
+					<?php echo 'Payment Plugins for Stripe WooCommerce must be installed to activate Payment Plugins Plaid Gateway.' ?>
+                </h4>
+            </div>
+			<?php
+		} );
+	}
+} );
