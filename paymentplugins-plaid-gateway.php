@@ -8,7 +8,7 @@
  * Author: Payment Plugins, support@paymentplugins.com
  * Text Domain: woo-stripe-payment
  * Domain Path: /i18n/languages/
- * Tested up to: 5.9
+ * Tested up to: 6.0
  * WC requires at least: 3.2
  * WC tested up to: 6.9
  */

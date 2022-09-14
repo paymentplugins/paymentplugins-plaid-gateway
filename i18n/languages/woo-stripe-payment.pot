@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-09-14T06:55:22+00:00\n"
+"POT-Creation-Date: 2022-09-14T15:52:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woo-stripe-payment\n"
@@ -30,36 +30,36 @@ msgstr ""
 msgid "Payment Plugins, support@paymentplugins.com"
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:27
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:28
 msgid "Plaid ACH"
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:30
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:31
 msgid "Stripe Plaid (deprecated)"
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:31
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:32
 msgid "Plaid gateway that integrates with your Stripe account. Stripe ACH is the preferred way to accept ACH payments."
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:127
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:128
 msgid "Error processing payment. Reason: %s"
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:253
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:254
 msgid "Saved Banks"
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:257
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:258
 msgid "New Bank"
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:301
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:302
 msgid "You must set the API mode to live in order to enable the Plaid development environment."
 msgstr ""
 
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:336
-#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:340
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:337
+#: includes/gateways/class-wc-payment-gateway-stripe-plaid.php:341
 #: includes/gateways/settings/plaid-settings.php:121
 msgid "ACH Fee"
 msgstr ""
