@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:core": "npm run minify && npm run webpack:prod && npm run makepot",
+    "build:core": "npm run webpack:prod && npm run makepot",
     "makepot": "composer run-script makepot",
     "webpack:dev": "npm run clean:build && webpack --mode=development",
     "webpack:prod": "npm run clean:build && NODE_ENV=production webpack --mode=production",
