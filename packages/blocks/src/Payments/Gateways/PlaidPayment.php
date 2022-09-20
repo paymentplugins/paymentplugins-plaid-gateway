@@ -20,7 +20,7 @@ class PlaidPayment extends AbstractStripePayment {
 	public function get_payment_method_icon() {
 		return array(
 			'id'  => $this->get_name(),
-			'alt' => 'ACH Payment',
+			'alt' => 'Plaid Payment',
 			'src' => $this->payment_method->icon
 		);
 	}

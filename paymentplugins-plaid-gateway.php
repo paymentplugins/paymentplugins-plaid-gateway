@@ -41,7 +41,7 @@ add_filter( 'wc_stripe_api_controllers', function ( $controllers ) use ( $path )
 	return $controllers;
 } );
 
-add_action( 'plugins_loaded', function () {
+/*add_action( 'plugins_loaded', function () {
 	if ( ! function_exists( 'stripe_wc' ) ) {
 		add_action( 'admin_notices', function () {
 			?>
@@ -53,4 +53,4 @@ add_action( 'plugins_loaded', function () {
 			<?php
 		} );
 	}
-} );
+} );*/

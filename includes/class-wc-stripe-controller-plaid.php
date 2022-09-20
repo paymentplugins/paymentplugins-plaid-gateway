@@ -22,7 +22,7 @@ if ( ! class_exists( 'WC_Stripe_Controller_Plaid' ) ) {
 		 */
 		public function get_link_token( $request ) {
 			/**
-			 * @var WC_Payment_Gateway_Stripe_ACH $gateway
+			 * @var \WC_Payment_Gateway_Stripe_Plaid $gateway
 			 */
 			$gateway = WC()->payment_gateways()->payment_gateways()['stripe_plaid'];
 
