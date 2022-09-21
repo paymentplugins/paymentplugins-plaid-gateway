@@ -1,4 +1,4 @@
-PLUGIN_NAME="paymentplugins-plaid-gateway"
+PLUGIN_NAME="plaid-gateway"
 PROJECT_PATH=$(pwd)
 BUILD_PATH="${PROJECT_PATH}/build"
 DEST_PATH="${BUILD_PATH}/${PLUGIN_NAME}"

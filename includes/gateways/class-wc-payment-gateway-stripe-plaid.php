@@ -29,7 +29,8 @@ if ( class_exists( 'WC_Payment_Gateway_Stripe' ) ) {
 			$this->template_name      = 'ach.php';
 			$this->token_type         = 'Stripe_ACH';
 			$this->method_title       = __( 'Stripe Plaid (deprecated)', 'woo-stripe-payment' );
-			$this->method_description = __( 'Plaid gateway that integrates with your Stripe account. Stripe ACH is the preferred way to accept ACH payments.', 'woo-stripe-payment' );
+			$this->method_description = sprintf( __( 'Plaid gateway that integrates with your Stripe account. %1$sStripe ACH%2$s is the preferred way to accept ACH payments.',
+				'woo-stripe-payment' ), '<a href=" ' . admin_url( 'admin.php?page=wc-settings&tab=checkout&section=stripe_ach' ) . '">', '</a>' );
 			$this->icon               = stripe_wc()->assets_url( 'img/ach.svg' );
 			$this->metadata_key       = $this->id . '_metadata';
 			parent::__construct();
