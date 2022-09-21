@@ -393,9 +393,9 @@ if ( class_exists( 'WC_Payment_Gateway_Stripe' ) ) {
 			return wp_script_is( $scripts->get_handle( 'ach' ) );
 		}
 
-		/*public function admin_nav_tab( $tabs ) {
+		public function admin_nav_tab( $tabs ) {
 			return $tabs;
-		}*/
+		}
 
 	}
 
